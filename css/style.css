@@ -1,6 +1,19 @@
  .name-color{
      color: orange;
  }
+ .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  
+  
 h1{
     font-family: 'Bebas Neue', cursive;
 }
@@ -56,5 +69,5 @@ p{
       width: 100%;
     }
   }
-  
+
    
