@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header style="background-color: #faeea1">
+    <header id="home" style="background-color: #faeea1">
         <section class="container">
              
              <div>
@@ -28,10 +28,10 @@
                       </div>
                       <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          <a class="nav-link" href="#">Product</a>
-                          <a class="nav-link" href="#">About us</a>
-                          <a class="nav-link " href="#" tabindex="-1">Contact us</a>
+                          <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                          <a class="nav-link" href="#product">Product</a>
+                          <a class="nav-link" href="#contact">About us</a>
+                          <a class="nav-link " href="#contact" tabindex="-1">Contact us</a>
                         </div>
                       </div>
                     </div>
@@ -55,11 +55,11 @@
         </section>
          
     </header>
-    <main class="container mt-5">
+    <main id="product" class="container mt-5">
         <h3>WOMAN JACKET</h3>
-        <section class="row row-cols-1 row-cols-md-3 g-4 mt-1 ">
+        <section class="row row-cols-1 row-cols-md-3 g-5 mt-1">
            
-            <div style="border-radius: 1em;" class="col shadow-sm rounded">
+            <div style="border-radius: 1em;" class="col shadow">
               <div class="card categories h-100">
                 <img src="images/yellow.png" class="card-img-top categories-images" alt="...">
                 <div class="card-body">
@@ -78,7 +78,7 @@
                 </div>
               </div>
             </div>
-            <div style="border-radius: 1em;" class="col shadow-sm rounded">
+            <div style="border-radius: 1em;" class="col shadow">
               <div class="card categories h-100">
                 <img src="images/ladies.png" class="card-img-top categories-images" alt="...">
                 <div class="card-body">
@@ -96,7 +96,7 @@
                 </div>
               </div>
             </div>
-            <div style="border-radius: 1em;" class="col shadow-sm rounded">
+            <div style="border-radius: 1em;" class="col shadow">
               <div class="card categories h-100">
                 <img src="images/lather.png" class="card-img-top categories-images" alt="...">
                 <div class="card-body">
@@ -118,7 +118,7 @@
         <h3 class="mt-5">MAN JACKET</h3>
         <section class="row row-cols-1 row-cols-md-3 g-4 mt-1">
            
-            <div style="border-radius: 1em;" class="col shadow-sm rounded">
+            <div style="border-radius: 1em;" class="col shadow">
               <div class="card categories h-100">
                 <img src="images/snowboard.png" class="card-img-top categories-images" alt="...">
                 <div class="card-body">
@@ -137,7 +137,7 @@
                 </div>
               </div>
             </div>
-            <div style="border-radius: 1em;" class="col shadow-sm rounded">
+            <div style="border-radius: 1em;" class="col shadow">
               <div class="card categories h-100">
                 <img src="images/manlather.png" class="card-img-top categories-images" alt="...">
                 <div class="card-body">
@@ -155,7 +155,7 @@
                 </div>
               </div>
             </div>
-            <div style="border-radius: 1em;" class="col shadow-sm rounded">
+            <div style="border-radius: 1em;" class="col shadow">
               <div class="card categories h-100">
                 <img src="images/mancassual.png" class="card-img-top categories-images" alt="...">
                 <div class="card-body">
@@ -175,8 +175,10 @@
             </div>
         </section>
         <section class="mt-5">
-            <div>
-                <div class="card mb-3 border-last shadow-sm rounded" style="max-width: 540px;">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-5">
+                    
+                <div class="card mb-3 border-last shadow" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-2">
                         <img style="height:100%; width:100%;" src="logo-icon/perfect-fit.png" alt="...">
@@ -189,7 +191,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card mb-3 border-last shadow-sm rounded" style="max-width: 540px;">
+                  <div class="card mb-3 border-last shadow" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-2">
                         <img style="height:100%; width:100%;" src="logo-icon/exchange.png" alt="...">
@@ -203,7 +205,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="card mb-3 border-last shadow-sm rounded" style="max-width: 540px;">
+                  <div class="card mb-3 border-last shadow" style="max-width: 540px;">
                     <div class="row g-0">
                       <div class="col-md-2">
                         <img style="height:100%; width:100%;" src="logo-icon/seller.png" alt="...">
@@ -216,14 +218,32 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="d-flex text-end">
-                    <img style="height: 80%; width: 80%;" src="logo-icon/XMLID 1.png" alt="">
-                   </div> 
+                 </div>
+                </div>
+
+                <div class="col-7">
+                    <div>
+                        <img style="height: 80%; width: 100%; margin-left: 25px;" src="logo-icon/XMLID 1.png" alt="">
+                      </div> 
+                </div>
+                  
+               
             </div>
             
         </section>
+                 
+
+        <section id="contact" style="height: 300px;" class="bg-info container mt-5 d-flex justify-content-center align-items-center last-part">
+            <div>
+                 <h1>LET'S STAY IN TOUCH</h1>
+                 <h5>Get updates on sales, specials and more</h5>
+                 <input type="text" placeholder="Enter your e-mail">
+                 <button class="btn text-white button-icon">SUBMIT</button>
+            </div>
+        </section>
+        
     </main>
+    <footer class="text-center mt-5">©2021. Penguin Fashion. All rights reserved.</footer>
 
      <script src="js/bootstrap.min.js"></script>
 </body>

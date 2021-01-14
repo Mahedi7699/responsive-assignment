@@ -28,13 +28,14 @@ p{
 }
 .categories{
     border: 0;
-    border-radius: 1em;
-     
-    
+    border-radius: 2em; 
 }
 .categories-images{
     background-color: lavender;
     border-radius: 1em;
+    height: 60%;
+    width: 100%;
+    margin-top: 1em;
 }
 .categories-footer{
     border: 0;
@@ -45,6 +46,9 @@ p{
     border: 0;
     border-radius: 1em;
     padding: 10px;
+}
+.container{
+    border-radius: 1em;
 }
 
    
