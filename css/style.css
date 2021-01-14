@@ -1,0 +1,50 @@
+ .name-color{
+     color: orange;
+ }
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+}
+h5{
+    font-family: 'Bebas Neue', cursive;
+}
+.button-icon{
+    background-color: rgb(25, 187, 25);
+    padding: 10px 18px;
+    border-radius: 5px;
+}
+.button-icon img{
+    height: 20px;
+    width: 20px;
+}
+p{
+    text-align: justify;
+}
+
+.sizing img{
+    width: 100%;
+}
+.categories{
+    border: 0;
+    border-radius: 1em;
+     
+    
+}
+.categories-images{
+    background-color: lavender;
+    border-radius: 1em;
+}
+.categories-footer{
+    border: 0;
+    background-color: white;
+
+}
+.border-last{
+    border: 0;
+    border-radius: 1em;
+    padding: 10px;
+}
+
+   
